@@ -11,7 +11,7 @@ export default function Home() {
       fontSize={["26px", "2em"]}
     >
       <Flex flexDir={["column", "row"]} justify="center" align="center">
-        Seu cadastro está <Text color="red">80%</Text> concluido.
+        Seu cadastro está <Text color="red" px=".2em">80%</Text> concluido.
       </Flex> 
       <Flex textAlign="center" fontSize="18px" m="2em">
         Entre no grupo do Whatsapp para não perder nenhuma novidade.
