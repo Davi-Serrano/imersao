@@ -52,7 +52,7 @@ export function BtnSendForm({name, email, confirmEmail, tel}: UserDatasProps) {
                 duration: 3000,
                 isClosable: true,
             })
-            Router.push("./teste")
+            Router.push("./finalizar-cadastro")
         } catch(err){
             toast({
                 title: 'Erro ao cadastrar!.', 
