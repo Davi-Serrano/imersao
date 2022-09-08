@@ -1,4 +1,4 @@
-import { Center, Flex, Text } from "@chakra-ui/react";
+import { Center, Flex, Link, Text } from "@chakra-ui/react";
 import { SiWhatsapp } from "react-icons/si"
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Flex textAlign="center" fontSize="18px" m="2em">
         Entre no grupo do Whatsapp para não perder nenhuma novidade.
       </Flex> 
-
+    <Link href="https://chat.whatsapp.com/Ie4AtA42JADHXDBYzerfnR" isExternal>
       <Flex 
           borderRadius={32}   
           p=".5em" my=".5em" 
@@ -31,6 +31,7 @@ export default function Home() {
         >
         <SiWhatsapp color="#39ff14" size={60} /> <Flex pl="1em"> Entrar no grupo do Whatsapp.</Flex>
       </Flex> 
+      </Link>
       <Flex>
       
       </Flex>  
