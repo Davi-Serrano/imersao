@@ -29,23 +29,40 @@ import { BtnSendForm } from "./btnSendForm";
             <VStack spacing={4} align="flex-start">
               <FormControl color="black">
              
-              <FormLabel mb="0">Seu Nome Completo</FormLabel>
+              <FormLabel mb="0">Seu Nome </FormLabel>
                 <Input
+                placeholder="Nome Completo"
                 onChange={(e)=>setName(e.target.value)}
+                _placeholder={{
+                  opacity: .4
+                }}
+                
                 />
                
                <FormLabel mb="0">Seu melhor E-mail</FormLabel>
                 <Input
+                placeholder="nome@email.com"
                 onChange={(e)=>setEmail(e.target.value)}
+                _placeholder={{
+                  opacity: .4
+                }}
                 />
                 
                 <FormLabel mb="0">Confirme seu E-mail</FormLabel>
                 <Input
+                placeholder="nome@email.com"
                 onChange={(e)=>setConfirmEmail(e.target.value)}
+                _placeholder={{
+                  opacity: .4
+                }}
                 />
                 
                 <FormLabel mb="0">Telefone</FormLabel>
                 <Input
+                placeholder="(11) 9 9999-9999"
+                _placeholder={{
+                  opacity: .4
+                }}
                 onChange={(e)=>setTel(e.target.value)}
                 
                 />
