@@ -9,14 +9,16 @@ export function BtnSendDataClient(){
     return(
         <Flex
               justify="center"
-              align="center"  
+              align="center" 
+              textAlign="center" 
               bg="#D35000"
               color="#fff"
-              fontSize="20px"
+              fontSize={["15px", "20px"]}
               p=".3em 2em"
               borderRadius="8px"
               mx="auto"
-              mt="1em"
+              mt="2em"
+              maxW="80vw"
               transition=".3s"
               _hover={{
                 cursor: "pointer",
